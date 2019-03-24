@@ -1,0 +1,23 @@
+{
+  "name": "debuggingjs",
+  "version": "1.0.0",
+  "description": "All materials related to my talk on debugging javascript",
+  "main": "index.js",
+  "dependencies": {
+    "reveal-md": "~3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "slides": "reveal-md ./slides/slides.md --theme sky -w --css ./slides/slides.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stetsmando/debuggingjs.git"
+  },
+  "author": "Stetson Pierce <stetsmando@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stetsmando/debuggingjs/issues"
+  },
+  "homepage": "https://github.com/stetsmando/debuggingjs#readme"
+}

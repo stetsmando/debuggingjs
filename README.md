@@ -1,6 +1,6 @@
-# Debugging JavaScript
+# Debugging JavaScript - A Journey Into the Unknown
 
-## Welcome
+## Welcome 👋
 
 This repo contains all the slides and code related to my talk **Debugging JavaScript - A Journey Into the Unknown**.
 
@@ -12,6 +12,7 @@ The slides are powered by [Reveal.js](https://www.npmjs.com/package/reveal) and 
 
 ## Versions
 
-I've given this talk a few times and will keep track of all available recordings here
+I've given this talk a few times and will keep track of all available recordings below.
 
-* Utah Node.js: [![Utah Node.js](http://img.youtube.com/vi/8f4ghrSRd6w/0.jpg)](http://www.youtube.com/watch?v=8f4ghrSRd6w)
+### Utah Node.js
+[![Utah Node.js](http://img.youtube.com/vi/8f4ghrSRd6w/0.jpg)](http://www.youtube.com/watch?v=8f4ghrSRd6w)

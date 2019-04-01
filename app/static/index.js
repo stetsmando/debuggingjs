@@ -6,24 +6,27 @@ fetch('/api/talks')
       talksElement.appendChild(createTalkElement({ ...talk, id: i }))
     })
 
-    function createTalkElement ({
-      description,
-      presenter,
-      attending,
-      title,
-      id
-    }) {
+    function createTalkElement (talk) {
+      const { description, presenter, attending, title, id } = talk
       const talkHeaderElement = document.createElement('div')
       talkHeaderElement.classList.add('talk-header')
       talkHeaderElement.innerHTML = `
   <div><strong>${title}</strong> - ${presenter}</div>
   <div><em class="talk-attending">Attending: ${attending}</em></div>`
       talkHeaderElement.children[1].addEventListener('click', ({ target }) => {
-        const updatedValue =
-          target.innerHTML.indexOf('👍') > -1
-            ? 'Attending: 👎'
-            : 'Attending: 👍'
-        target.value = updatedValue
+        const updatedValue = target.innerHTML.indexOf('👍') > -1 ? '👎' : '👍'
+        target.value = `Attending: ${updatedValue}`
+        talk.attending = updatedValue
+
+        fetch('/api/talk/:id/attending', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(talk)
+        })
+          .then(r => r.json())
+          .then(r => console.log(`Talk: ${JSON.stringify(r, null, 2)}`))
       })
 
       const talkBodyElement = document.createElement('div')

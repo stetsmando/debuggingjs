@@ -4,6 +4,7 @@
   "description": "All materials related to my talk on debugging javascript",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "~1.18.3",
     "express": "~4.16.4",
     "reveal-md": "~3.0.4"
   },

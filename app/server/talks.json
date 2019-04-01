@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Software is Easy",
+    "description": "Bacon ipsum dolor amet short ribs strip steak filet mignon, bresaola spare ribs beef jerky doner corned beef rump boudin meatball alcatra ground round beef ribs. Prosciutto sirloin porchetta ribeye picanha cupim. Andouille buffalo cow meatball ham hock doner tongue strip steak leberkas porchetta alcatra. Ribeye strip steak doner, cow meatball tongue pig buffalo chicken burgdoggen. Shank bresaola buffalo biltong flank turkey meatball kevin venison leberkas.",
+    "presenter": "Amy Rivera",
+    "attending": "👎"
+  },
+  {
+    "title": "JavaScript, is it usable?",
+    "description": "Prosciutto t-bone pastrami, rump swine burgdoggen drumstick short loin cow meatball shoulder frankfurter. Beef ribs pork belly kielbasa, pork doner turducken capicola jowl short ribs pastrami tail.",
+    "presenter": "Ted Barnett",
+    "attending": "👎"
+  },
+  {
+    "title": "console.log rulez",
+    "description": "Pork chop bresaola corned beef flank meatloaf pastrami swine t-bone pig alcatra short ribs tenderloin bacon. Pancetta prosciutto cow, drumstick biltong ball tip ribeye leberkas boudin. Andouille tri-tip corned beef drumstick, rump pork cupim meatloaf pork chop burgdoggen. Kevin tail tenderloin picanha beef shoulder. Andouille prosciutto kielbasa, buffalo bresaola doner ball tip cow salami rump sirloin pork loin beef ribs biltong. Tenderloin meatball doner chicken tri-tip biltong.",
+    "presenter": "Wyatt Herrera",
+    "attending": "👎"
+  }
+]

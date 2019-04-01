@@ -18,7 +18,7 @@
     "url": "git+https://github.com/stetsmando/debuggingjs.git"
   },
   "author": "Stetson Pierce <stetsmando@gmail.com>",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/stetsmando/debuggingjs/issues"
   },

@@ -16,3 +16,5 @@ I've given this talk a few times and will keep track of all available recordings
 
 ### Utah Node.js
 [![Utah Node.js](http://img.youtube.com/vi/8f4ghrSRd6w/0.jpg)](http://www.youtube.com/watch?v=8f4ghrSRd6w)
+
+[Slides available here](https://docs.google.com/presentation/d/1yTaI2Oq724OdPdTkboUu_RjonAZFUDc5AQCZuagiq9Y/edit#slide=id.p)

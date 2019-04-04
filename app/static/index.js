@@ -15,7 +15,7 @@ fetch('/api/talks')
   <div><em class="talk-attending">Attending: ${attending}</em></div>`
       talkHeaderElement.children[1].addEventListener('click', ({ target }) => {
         const updatedValue = target.innerHTML.indexOf('👍') > -1 ? '👎' : '👍'
-        target.value = `Attending: ${updatedValue}`
+        target.innerHTML = `Attending: ${updatedValue}`
         talk.attending = updatedValue
 
         fetch('/api/talk/:id/attending', {

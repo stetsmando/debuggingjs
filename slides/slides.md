@@ -4,18 +4,32 @@
 <div style="text-align: right">_*hopefully_</div>
 <div style="font-size: 9px; text-align: right;"><em>Photo: https://unsplash.com/@asoggetti</em></div>
 
-----
-## Before We Begin
-Note: 
-* Assumptions
-  * You’ve written some amount of JavaScript
-* Originally filled 90min, cut to 70
-* Cutting it down to 50min
+Note:
+Before you begin...
+* Run `npm start` in a different terminal
+* Clear all dev tool artifacts
+* Make sure dev tools are ordered `elements`, `console` then `sources`
+* Make sure `docker` is running
+* Hide bookmarks bar in Chrome
+* Start server from Terminal
 
 ----
 ![github](./assets/logo-github.png)
 
 @stetsmando/debuggingjs
+
+----
+# Feedback?
+
+@stetsmando/debuggingjs/issues
+
+----
+# Before We Begin
+Note: 
+* Why I created this talk
+* What I hope you take away
+* Assume you’ve written some amount of JavaScript
+* Originally filled 90min, cut to 70, now to 50
 
 ----
 ![butts](./assets/butts.gif)
@@ -44,12 +58,13 @@ console.log('Something Useful')
 ```
 
 ----
+# Pro Tip:
 ```javascript
 console.log(JSON.stringify(someObj, null, 2))
 ```
 
 ---
-## Story Time
+# Story Time
 
 ----
 ![ie9](./assets/ie9.jpg)
@@ -103,7 +118,93 @@ Tour of DevTools
 
 ⌃ + ↑ + J
 
-Note: Pause here and go open the Dev Tools
+----
+### Demo App
+![conference tracker](./assets/conference-tracker.png)
+
+Note:
+* The demo should give a quick walkthrough of the dev tools,
+* Show off debugging `attending` not updating in UI
+  * Show off the `mouse => click` Event Listener Breakpoints
+  * Blackboxing scripts
+  * Linking to local files
+
+----
+
+## You 👇
+
+![pretty cool](./assets/pretty-cool.gif)
 
 ---
+![node](./assets/logo-node.png)
 
+----
+<!-- .slide: id="custom" data-background="./assets/node-legacy.jpg" -->
+
+----
+<!-- .slide: id="custom" data-background="./assets/node-inspector.png" -->
+
+Note:
+Debug the server portion of the `attending` feature
+
+----
+![vim user](./assets/vim-user.gif)
+
+----
+![unamused](./assets/unamused-terminal.png)
+
+----
+![terminal inspector](./assets/terminal-inspector.png)
+
+----
+# --inspect
+
+----
+![terminal --inspector](./assets/terminal--inspector.png)
+
+----
+![thinking](./assets/emoji-thinking.png)
+
+----
+![chrome](./assets/logo-chrome.png)
+
+----
+![blessing](./assets/blessing.gif)
+
+---
+![chrome](./assets/logo-chrome-question.png)
+
+----
+![vscode](./assets/logo-vscode.png)
+
+Note:
+Show how to configure vscode to connect to node inspector
+
+---
+*Let's talk about the **whale** in the room*
+
+----
+![docker](./assets/logo-docker.png)
+
+----
+<!-- .slide: id="custom" data-background="./assets/docker-container.png" -->
+
+----
+![adventure](./assets/adventure.gif)
+
+----
+![map](./assets/map.png)
+
+---
+# Thank You
+
+----
+# Feedback?
+
+@stetsmando/debuggingjs/issues
+
+----
+<!-- .slide: id="custom" data-background="./assets/questions.jpg" -->
+
+# Questions?
+<div style="font-size: 9px; text-align: right;"><em>Photo: https://unsplash.com/@evan__bray</em></div>

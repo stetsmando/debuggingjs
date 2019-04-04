@@ -13,7 +13,7 @@ app.get('/api/talks', (_, res) => res.json(availableTalks))
 app.post('/api/talk/:id/attending', (req, res) => {
   try {
     const talk = req.body
-    availableTalks[talks.id] = talk
+    availableTalks[talk.id] = talk
     res.json(talk)
   } catch (error) {
     res.status(500).json({})

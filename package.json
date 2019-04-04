@@ -11,6 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node ./app/server/server.js",
+    "debug": "node --inspect=\"0.0.0.0:9229\" ./app/server/server.js",
     "slides": "reveal-md ./slides/slides.md --theme sky -w --css ./slides/slides.css"
   },
   "repository": {

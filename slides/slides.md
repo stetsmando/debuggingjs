@@ -21,7 +21,7 @@ Before you begin...
 ----
 # Feedback?
 
-@stetsmando/debuggingjs/issues
+@github/stetsmando/debuggingjs/issues
 
 ----
 # Before We Begin
@@ -35,9 +35,8 @@ Note:
 ![butts](./assets/butts.gif)
 
 ---
-# About Me
+### About Me
 
-----
 * **@stetsmando** - Twitter, Github, etc.
 * Software Architect **@Berkadia**
 * Using JavaScript in some form since 2011
@@ -58,9 +57,15 @@ console.log('Something Useful')
 ```
 
 ----
-# Pro Tip:
+# Pro Tips:
 ```javascript
+// Pretty prints objects in console
 console.log(JSON.stringify(someObj, null, 2))
+```
+&
+```javascript
+// Creates a breakpoint when debugger is connected
+debugger
 ```
 
 ---
@@ -128,6 +133,7 @@ Note:
   * Show off the `mouse => click` Event Listener Breakpoints
   * Blackboxing scripts
   * Linking to local files
+  * Show `debugger` statements
 
 ----
 

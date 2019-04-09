@@ -14,6 +14,14 @@ Before you begin...
 * Start server from Terminal
 
 ----
+# Before We Begin
+Note: 
+* Why I created this talk
+* What I hope you take away
+* Assume you’ve written some amount of JavaScript
+* Originally filled 90min, cut to 70, now to 50
+
+----
 ![github](./assets/logo-github.png)
 
 @stetsmando/debuggingjs
@@ -22,14 +30,6 @@ Before you begin...
 # Feedback?
 
 @github/stetsmando/debuggingjs/issues
-
-----
-# Before We Begin
-Note: 
-* Why I created this talk
-* What I hope you take away
-* Assume you’ve written some amount of JavaScript
-* Originally filled 90min, cut to 70, now to 50
 
 ----
 ![butts](./assets/butts.gif)
@@ -76,10 +76,10 @@ debugger
 ![horror](./assets/horror.gif)
 
 ----
-![cpp](./assets/logo-cpp.png)
+![app](./assets/mock-app01.png)
 
 ----
-![app](./assets/mock-app01.png)
+![cpp](./assets/logo-cpp.png)
 
 ----
 ![app](./assets/mock-app02.png)
@@ -101,9 +101,6 @@ debugger
 
 ---
 ![console](./assets/mock-browser-console.png)
-
-----
-![node](./assets/logo-node.png)
 
 ----
 ![chrome](./assets/logo-chrome.png)
@@ -207,7 +204,7 @@ Show how to configure vscode to connect to node inspector
 ----
 # Feedback?
 
-@stetsmando/debuggingjs/issues
+@github/stetsmando/debuggingjs/issues
 
 ----
 <!-- .slide: id="custom" data-background="./assets/questions.jpg" -->
